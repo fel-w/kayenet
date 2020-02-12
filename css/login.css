@@ -1,0 +1,114 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto','Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+    outline: none;
+}
+body{
+    background-image: url("../img/bg-main.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.container{
+    width: 45%;
+    margin: auto;
+    margin-top: 5%;
+    padding: 15px;
+    display: flex;
+    background: rgba(43, 105, 104,0.2);
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.container > .fa-users{
+    font-size: 45px;
+}
+.login-logo{
+    font-family: Gabriola;
+    font-size: 50px;
+}
+.login{
+    margin-top:8px;;
+    font-size: 30px;
+}
+form{
+    width: 95%;
+    margin: auto;
+}
+.input-area{
+    position: relative;
+}
+.placeholder-icon{
+    position: absolute;
+    bottom:18px;
+    left: 24px;
+    font-size: 25px;
+    color: white;
+}
+input {
+    width: 100%;
+    margin-top: 9%;
+    height: 58px;
+    font-size: 18px;
+    background-color: transparent;
+    padding: 4px 70px;
+    color: white;
+    display: inline-block;
+    border: 1px solid #fff;
+    border-radius: 40px;
+    font-weight: 400;
+}
+input:focus {
+    border-color: #62bee9;
+    border-width: 2px;
+}
+input::placeholder {
+    font-weight: 300;
+    text-align: center;
+    color: white;
+}
+.button{
+    width: 40%;
+    margin: 4% auto;
+}
+input[type=submit]{
+    padding: 14px 20px;
+    margin: 0%;
+    margin-top:4%; 
+    font-size: 18px;
+    font-weight: 300;
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: 40px;
+    cursor: pointer;
+    height: unset;
+    color: white;
+}
+input[type=submit]:hover,input[type=submit]:focus{
+    font-weight: 600;
+    background: rgba(43, 105, 104,0.6);
+    transition:all 0.5s ease;
+}
+.wrong-details-area{
+    position: relative;
+}
+#wrongDetails {
+    font-size: 20px;
+    text-align: center;
+    color: #c3ffb9;
+    font-weight: 400;
+    /* background-color: rgba(255,42,64,0.4); */
+    width: 83%;
+    margin: auto;
+    /* border: 1px solid #a94442; */
+    border-radius: 6px;
+    margin-top: 2%;
+    margin-bottom:-6%;
+    padding: 8px;
+}
